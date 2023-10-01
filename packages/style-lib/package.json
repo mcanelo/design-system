@@ -1,0 +1,43 @@
+{
+  "name": "style-lib",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "changelog": "auto-changelog --commit-limit false --unreleased --package --template ./changelog-template.hbs && git add CHANGELOG.md",
+    "commit": "git-cz",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "commitizen": "^4.3.0",
+    "cz-customizable": "^7.0.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "auto-changelog": "^2.4.0"
+  },
+  "auto-changelog": {
+    "commitLimit": false,
+    "template": "changelog-template.hbs",
+    "commitUrl": "https://github.com/mcanelo/design-system/commit/{id}",
+    "compareUrl": "https://github.com/mcanelo/design-system/commit/{from}{to}",
+    "replaceText": {
+      "feat|fix|feat(components)": "",
+      "Merge pull request \\d*:": "",
+      "(\\d{6})": "[$1](https://melainvento.com)",
+      " : ": "",
+      "^\\s+": ""
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    },
+    "cz-customizable": {
+      "config": ".cz-config.ts"
+    }
+  }
+}
