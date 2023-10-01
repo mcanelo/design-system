@@ -2,7 +2,13 @@
   "name": "style-lib",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
+  "main": "./style.scss",
+  "directories": {
+    "src": "src"
+  },
+  "files": [
+    "dist/"
+  ],
   "scripts": {
     "changelog": "auto-changelog --commit-limit false --unreleased --package --template ./changelog-template.hbs && git add CHANGELOG.md",
     "commit": "git-cz",
@@ -13,6 +19,7 @@
   "devDependencies": {
     "commitizen": "^4.3.0",
     "cz-customizable": "^7.0.0",
+    "sass": "^1.68.0",
     "typescript": "^5.0.2",
     "vite": "^4.4.5"
   },

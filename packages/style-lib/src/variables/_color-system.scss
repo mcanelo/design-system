@@ -1,0 +1,58 @@
+// --------------------
+// # COLOR SYSTEM
+// --------------------
+$c-turquoise-10: #c0ebf2 !default;
+$c-turquoise-20: #b0e1e7 !default;
+$c-turquoise-30: #92d9e2 !default;
+$c-turquoise-40: #52cfe0 !default;
+$c-turquoise-50: #1fc1d6 !default;
+$c-turquoise-60: #00adc3 !default;
+$c-turquoise-65: #0096ad !default;
+$c-turquoise-70: #00809a !default;
+$c-turquoise-80: #016a7f !default;
+$c-turquoise-90: #006c83 !default;
+$c-turquoise-100: #00404d !default;
+
+$c-yellow-10: #fff7db !default;
+$c-yellow-20: #ffe999 !default;
+$c-yellow-30: #ffde66 !default;
+$c-yellow-40: #ffd333 !default;
+$c-yellow-50: #ffc800 !default;
+$c-yellow-80: #bd9400 !default;
+$c-yellow-90: #806400 !default;
+
+$c-green-20: #ebf7de !default;
+$c-green-30: #b5e189 !default;
+$c-green-50: #77c030 !default;
+$c-green-70: #5b9325 !default;
+$c-green-90: #3a5e17 !default;
+$c-green-100: #21350d !default;
+
+
+:root {
+  --c-turquoise-10: #{$c-turquoise-10};
+  --c-turquoise-20: #{$c-turquoise-20};
+  --c-turquoise-30: #{$c-turquoise-30};
+  --c-turquoise-40: #{$c-turquoise-40};
+  --c-turquoise-50: #{$c-turquoise-50};
+  --c-turquoise-60: #{$c-turquoise-60};
+  --c-turquoise-65: #{$c-turquoise-65};
+  --c-turquoise-70: #{$c-turquoise-70};
+  --c-turquoise-80: #{$c-turquoise-80};
+  --c-turquoise-90: #{$c-turquoise-90};
+  --c-turquoise-100: #{$c-turquoise-100};
+  --c-yellow-10: #{$c-yellow-10};
+  --c-yellow-20: #{$c-yellow-20};
+  --c-yellow-30: #{$c-yellow-30};
+  --c-yellow-40: #{$c-yellow-40};
+  --c-yellow-50: #{$c-yellow-50};
+  --c-yellow-80: #{$c-yellow-80};
+  --c-yellow-90: #{$c-yellow-90};
+  --c-green-20: #{$c-green-20};
+  --c-green-30: #{$c-green-30};
+  --c-green-50: #{$c-green-50};
+  --c-green-70: #{$c-green-70};
+  --c-green-90: #{$c-green-90};
+  --c-green-100: #{$c-green-100};
+}
+
