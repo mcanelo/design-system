@@ -39,4 +39,8 @@ const count = ref(0)
 .one-class {
   width: 100%;
 }
+
+.two-class {
+  width: 40%;
+}
 </style>
