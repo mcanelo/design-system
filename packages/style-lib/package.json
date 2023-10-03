@@ -1,7 +1,7 @@
 {
   "name": "style-lib",
   "private": true,
-  "version": "0.2.3",
+  "version": "0.3.0",
   "main": "./style.scss",
   "directories": {
     "src": "src"
