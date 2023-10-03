@@ -43,4 +43,8 @@ const count = ref(0)
 .two-class {
   width: 40%;
 }
+
+.three-class{
+  width: 40%;
+} 
 </style>
